@@ -20,14 +20,14 @@ while (True):
     sleep(1)
     oled.fill(0)# clear oled
     
-    if S == 59:  
+    if S == 60:  
         S=0
         M+=1
         
-        if M==59:
+        if M==60:
             M=0
             H+=1
-            if H==23:
+            if H==24:
                 H=0
             
     print('Time: ',H,M,S)
