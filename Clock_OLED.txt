@@ -27,7 +27,7 @@ while (True):
         if M==59:
             M=0
             H+=1
-            if H==59:
+            if H==23:
                 H=0
             
     print('Time: ',H,M,S)
